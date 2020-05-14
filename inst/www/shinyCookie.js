@@ -50,7 +50,7 @@ shinyCookie = (function(){
         // If it's not a raw string, JSON.stringify
         val = JSON.stringify(val);
       }
-      Cookies.set(key, val, {expires: 0.015, path: ''});
+      Cookies.set(key, val, {expires: 0.04166667, path: ''});
     });
   });
 
